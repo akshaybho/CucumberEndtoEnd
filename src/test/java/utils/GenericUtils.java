@@ -7,6 +7,7 @@ import java.util.Set;
 
 public class GenericUtils {
 
+
     public WebDriver driver;
     public GenericUtils(WebDriver driver)
     {
