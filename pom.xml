@@ -43,6 +43,28 @@
      <artifactId>cucumber-picocontainer</artifactId>
      <version>7.15.0</version>
    </dependency>
+   <dependency>
+     <groupId>org.apache.xmlbeans</groupId>
+     <artifactId>xmlbeans</artifactId>
+     <version>3.1.0</version>
+   </dependency>
+   <!-- https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml-schemas -->
+   <dependency>
+     <groupId>org.apache.poi</groupId>
+     <artifactId>poi-ooxml-schemas</artifactId>
+     <version>4.1.1</version>
+   </dependency>
+   <dependency>
+     <groupId>com.aventstack</groupId>
+     <artifactId>extentreports</artifactId>
+     <version>5.1.1</version>
+   </dependency>
+
+   <dependency>
+     <groupId>tech.grasshopper</groupId>
+     <artifactId>extentreports-cucumber7-adapter</artifactId>
+     <version>1.10.1</version>
+   </dependency>
 
  </dependencies>
 
