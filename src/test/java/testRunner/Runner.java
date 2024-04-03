@@ -8,14 +8,16 @@ import org.testng.annotations.DataProvider;
 @CucumberOptions(features = ".//Features",
                  glue = "stepDefinition",
                   monochrome = true,
-                 dryRun = false
+                 dryRun = false,
+                   tags = "@PlaceOrder or @OffersPage",
+        plugin = {"html:target/cucumber.html", "json:target/cucumber.json"}
 )
 public class Runner extends AbstractTestNGCucumberTests {
 
-    @Override
+   /* @Override
     @DataProvider(parallel = true)
     public Object[][] scenarios()
     {
         return super.scenarios();
-    }
+    }*/
 }

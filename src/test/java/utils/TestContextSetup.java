@@ -6,16 +6,10 @@ import pageObjects.PageObjectManager;
 import java.io.IOException;
 
 public class TestContextSetup {
-
-    public WebDriver driver;
-
     public String laningPageproductName;
-
     public PageObjectManager po;
-
     public TestBase testBase;
     public GenericUtils genericUtils;
-
     public TestContextSetup() throws IOException {
         testBase = new TestBase();
         po = new PageObjectManager(testBase.WebDriverManager());
