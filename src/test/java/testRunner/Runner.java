@@ -11,7 +11,8 @@ import org.testng.annotations.DataProvider;
                  dryRun = false,
                    tags = "@PlaceOrder or @OffersPage",
         plugin = {"html:target/cucumber.html", "json:target/cucumber.json",
-        "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"}
+        "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",
+        "rerun:target/failed_scenarios.txt"}
 )
 public class Runner extends AbstractTestNGCucumberTests {
 
